@@ -14,7 +14,7 @@ namespace PostSharp.Tutorials.Logging
         {
             var nlogConfig = new LoggingConfiguration();
 
-            var traceTarget = new FileTarget("file")
+            var traceTarget = new FileTarget("file-trace")
             {
                 FileName = "trace.log",
                 KeepFileOpen = true,
@@ -24,7 +24,7 @@ namespace PostSharp.Tutorials.Logging
             nlogConfig.AddTarget(traceTarget);
             nlogConfig.LoggingRules.Add(new LoggingRule("*", NLog.LogLevel.Trace, traceTarget));
 
-            var warnTarget = new FileTarget("file")
+            var warnTarget = new FileTarget("file-warn")
             {
                 FileName = "warn.log",
                 KeepFileOpen = true,
