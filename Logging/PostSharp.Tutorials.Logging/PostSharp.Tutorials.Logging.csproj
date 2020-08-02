@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PostSharp.Patterns.Diagnostics" Version="6.6.11" />
-    <PackageReference Include="PostSharp.Patterns.Diagnostics.NLog" Version="6.6.11" />
+    <PackageReference Include="PostSharp.Patterns.Diagnostics" Version="6.6.12" />
+    <PackageReference Include="PostSharp.Patterns.Diagnostics.NLog" Version="6.6.12" />
   </ItemGroup>
 
 </Project>
